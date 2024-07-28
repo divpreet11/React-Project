@@ -1,0 +1,170 @@
+.tracker_Body_Wrapper {
+    /* background-color: red; */
+    position: relative;
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 98vw;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .initiative_wrapper {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-left: 1rem;
+  }
+  #initiative_heading {
+    background-color: rgb(249, 246, 246);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: small;
+    /* font-weight: bold; */
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  #initiative_value {
+    /* background-color: red; */
+    color: #74a4fe;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: small;
+  }
+  .tracker_Body {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    height: 100%;
+  }
+  .tracker_Title_Holder {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+  }
+  .tracker_Title_Holder svg {
+    position: relative;
+    top: 2px;
+    height: 20px;
+    width: 15px;
+    /* background-color: red; */
+  }
+  .tracker_Title_Holder span {
+    margin-left: 5px;
+    color: #764ca3;
+    font-weight: 500;
+  }
+  .progress_Bar {
+    /* background-color: red; */
+    /* height: 10px; */
+    width: 96%;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    height: fit-content;
+  }
+  .progress_Bottom_Content {
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+  }
+  
+  .left_Holder {
+    /* background-color: yellow; */
+    height: fit-content;
+  }
+  .left_Holder span {
+    /* background-color: red; */
+    color: grey;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .right_Holder span {
+    /* background-color: red; */
+    color: grey;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .right_Holder {
+    /* background-color: yellow; */
+    height: fit-content;
+  }
+  #variance {
+    background-color: red;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #fff;
+  }
+  /* table id */
+  #Tasks {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    /* margin: 2rem; */
+    width: 90vw;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+  }
+  
+  #heading_Row {
+    background-color: rgb(239, 245, 249);
+    text-align: left;
+    color: gray;
+    font-size: small;
+  }
+  tr {
+    text-align: center;
+  }
+  #task_ID_Row {
+    /* justify-content: center; */
+    color: #3a74e1;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  #task_ID_Row svg {
+    /* align-self: center; */
+    height: 20px;
+    width: 25px;
+  }
+  tr {
+    /* border-bottom: lightgray; */
+  
+    /* background-color: red; */
+    border-bottom: 2px solid black;
+    
+  }
+  tr td{
+      border-bottom: 1px solid lightgray;
+  }
+  #heading_Row  th{
+      border-bottom: 1px solid darkgray;
+  }
+  #task_Title_Row {
+    /* background-color: red; */
+    text-align: left;
+    margin-left: 2rem;
+  }
+  td{
+    /* display: flex; */
+    text-wrap: wrap;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .progress_Bar {
+      /* background-color: red; */
+      /* height: 10px; */
+      width: 90%;
+      margin-left: 2rem;
+      margin-top: 0.5rem;
+      height: fit-content;
+    }
+  }
+  
